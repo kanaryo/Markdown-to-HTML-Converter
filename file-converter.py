@@ -6,7 +6,6 @@ def validate_args(expected_args):
         print(f"Error: Expected at least {expected_args} arguments, but got {len(sys.argv)}.")
         sys.exit(1)
 
-
 # コマンドとファイルパスの取得
 if len(sys.argv) < 3:
     print("Usage:")
